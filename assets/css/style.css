@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat:wght@200;700&family=Poppins&family=Volkhov&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+    background: rgba(20, 39, 74, 0.5);
+    background-image: url("../images/home page.png");
+    background-size: cover;
+}
+
+.header-facilites {
+    background-image: url("../images/fasilitas page.png");
+}
+
+.header-rooms {
+    background-image: url("../images/rooms page.png");
+}
+
+.header-contact {
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    left: 0px;
+    top: 0px;
+    background: #14274A;
+}
+
+.header-contact .middle-nav h1 {
+    text-align: center;
+    font-family:Montserrat;
+    font-size: 40px;
+}
+
+nav {
+    margin: 0 114px;
+}
+
+.left-nav {
+    float: left;
+}
+
+.right-nav {
+    float: right;
+    margin-top: 28px;
+}
+
+.logo {
+    padding: 35px 20px 35px 28px;
+    top: 0;
+    background: #E0B973;
+    font-size: 25px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    letter-spacing: 8px;
+    font-family: 'Volkhov', serif;
+}
+
+.header-rooms .logo {
+    color: white;
+}
+
+.right-nav li {
+    display: inline;
+    margin-left: 50px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.right-nav li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.right-nav li a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-bottom: 8px;
+    border-bottom: 3px solid white;
+}
+
+.header-rooms .right-nav li a {
+    color:black;
+}
+
+.header-rooms .right-nav li a:hover {
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+.middle-nav {
+    color: white;
+    margin: 230px 114px 0px 114px;
+}
+
+.header-rooms .middle-nav {
+    color: black;
+}
+
+.welcome {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 40px;
+}
+
+.luxury {
+    font-family: 'Volkhov', serif;
+    font-style: normal;
+    font-size: 110px;
+    line-height: 150px;
+    letter-spacing: 0.07em;
+}
+
+.hotels {
+    font-family: 'Volkhov', serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 10px;
+    letter-spacing: 0.4em;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #f7e6c8;
+	background-color:#E0B973;
+	border-radius:5px;
+	border:1px solid #E0B973;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+	padding: 15px 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #E0B973;
+}
+
+.myButton:hover {
+    background-color: white;
+    color: #E0B973;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.button-header {
+    text-align: center;
+    margin-top: 100px;
+}
+
+main {
+    position: static;
+    margin-top: 810px;
+}
+
+.main-contact {
+    position: static;
+    margin-top: 451px;
+    height: 1000px;
+}
+
+.content-section {
+    margin: 0 114px;
+}
+
+.content-section h2 {
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 44px;
+    margin-top:850px;
+    margin-bottom: 50px;
+    color: #14274A;
+}
+
+.row {
+    flex: content;
+    flex-wrap: wrap;
+    margin-bottom: 500px;
+    width : 100%;
+}
+
+.img-content {
+    float: left;
+    margin-right: 20px;
+}
+
+.line2 {
+    height: 320px;
+}
+
+.col-left {
+    float: left;
+    width: 45%;
+    margin-top: 50px;
+}
+
+.tittle{
+    font-family: 'EB Garamond', serif;
+    font-style: normal;
+    font-size: 40px;
+    margin:0px;
+    letter-spacing: 3px;
+    margin-bottom: 35px;
+}
+
+.col-right {
+    float: right;
+}
+
+.col-right img {
+    width:550px;
+    height: 365.39px;
+}
+
+.content-button {
+	box-shadow:inset 0px 1px 0px 0px #f7e6c8;
+	background-color:#E0B973;
+	border-radius:5px;
+	border:1px solid #E0B973;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+	padding: 10px 40px;
+    text-decoration:none;
+    margin-top: 20px;
+	text-shadow:0px 1px 0px #E0B973;
+}
+
+.content-button:hover {
+    background-color: white;
+    color: #E0B973;
+}
+
+.content-button:active {
+	position:relative;
+	top:1px;
+}
+
+.testimonial {
+    clear: both;
+    padding-top: 115px;
+    width: 50%;
+    margin: 0 auto ;
+    text-align: center;
+}
+
+.testimonial h3 {
+    font-size: 55px;
+}
+
+.quote {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 37px;
+    text-align: center;
+}
+
+.testimonial .content-button {
+    padding: 3px 12px 0px 12px;
+    margin-left:15px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.facilities {
+    padding-top: 60px;
+    margin: 0 auto ;
+    text-align: center;
+    margin-left: 114px;
+    margin-right: 114px;
+}
+
+.facilities h3 {
+    font-size: 55px;
+}
+
+.image-facilities {
+    padding-top: 82px;
+}
+
+.image-facilities img {
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.image-facilities p {
+    background: #14274A;
+    padding:15px;
+    color: white;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.plus {
+    margin-right: 20px;
+    padding:8px 11px 8px 11px;
+    border-radius: 100px;
+    font-size: 50px;
+    font-weight: unset;
+}
+
+.main-tabel {
+    margin-top:0px;
+    width: 100%;
+    border: 1px solid gainsboro;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 40px;
+}
+
+.room-td-right {
+    text-align: right;
+    padding-right: 60px;
+}
+
+.room-td-left {
+    text-align: left;
+    padding-left: 60px;
+}
+
+.viewRoom {
+    padding-top: 23px;
+}
+
+.viewRoom a {
+    color:black;
+    text-decoration: none;
+}
+
+.content-contact {
+    margin: 0px 114px;
+    padding-top: 90px;
+}
+
+.content-contact .row {
+    margin-top: 100px;
+}
+
+.content-contact .col-left {
+    margin-top:0px
+}
+
+.content-contact .col-left a{
+    color: #14274A;
+    font-family: 'EB Garamond', serif;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.col-right td {
+    padding: 10px;
+}
+
+input[type=text], input[type=email], input[type=number], select, textarea {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.right {
+    text-align: right;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    height: 80px;
+    margin-top: 109px;
+    background: #14274A;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 12px;
+}
+
+footer p a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
